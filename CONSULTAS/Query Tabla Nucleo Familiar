@@ -1,0 +1,6 @@
+TABLA nucleo_familiar
+SELECT * FROM `nucleo_familiar`
+INSERT INTO `nucleo_familiar` (`id_Nucleof`, `Jefe_F`, `Status`, `Date_ingreso`, `id_Vivienda_Vivienda`, `id_Persona_Persona`, `id_Admin_Usuario`) VALUES (NULL, 'joselo Diaz, 'Activo', '2022-01-04 04:07:54.000000', '2', '2', '2');
+SELECT`id_Nucleof`, `Jefe_F`, `Status`, `Date_ingreso`, `id_Vivienda_Vivienda`, `id_Persona_Persona`, `id_Admin_Usuario` FROM `nucleo_familiar` WHERE 1
+UPDATE `nucleo_familiar` SET `Status` = 'Inactivo' WHERE `nucleo_familiar`.`id_Nucleof` = 1;
+DELETE FROM nucleo_familiar WHERE id_Nucleof=1;
