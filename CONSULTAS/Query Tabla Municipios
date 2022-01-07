@@ -1,0 +1,5 @@
+SELECT * FROM `municipios`
+INSERT INTO `municipios` (`id_Municipio`, `Nombre_M`, `Status`, `id_Estado_Estados`) VALUES (NULL, 'Iribarren ', 'Activo', '2');
+SELECT `id_Municipio`, `Nombre_M`, `Status`, `id_Estado_Estados` FROM `municipios` WHERE 1;
+UPDATE `municipios` SET `Status` = 'Inactivo' WHERE `municipios`.`id_Municipio` = 1;
+DELETE FROM municipios WHERE id_Municipio=1;
