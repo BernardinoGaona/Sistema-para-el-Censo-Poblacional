@@ -1,0 +1,5 @@
+SELECT * FROM `persona`
+INSERT INTO `persona` (`id_Persona`, `Cedula`, `Nombres`, `Apellidos`, `Sexo`, `Fecha_N`, `Parentesco`, `Estado_civil`, `Telefono`, `Correo`, `Nivel_instruccion`, `Profesion_ocupacion`, `Jefe`, `Status`, `Date_ingreso`, `id_Admin_Usuario`) VALUES (NULL, '27025396', 'Bernard Jose', 'Gaona Baez', 'Masculino', '25, Marzo, 2000', 'gyg', 'Soltero', '51454545', 'bernar@gmail.com', 'Universitaria', 'Dormir', 'Si', 'Activo', '2022-01-04 03:52:20.000000', '2');
+SELECT `id_Persona`, `Cedula`, `Nombres`, `Apellidos`, `Sexo`, `Fecha_N`, `Parentesco`, `Estado_civil`, `Telefono`, `Correo`, `Nivel_instruccion`, `Profesion_ocupacion`, `Jefe`, `Status`, `Date_ingreso`, `id_Admin_Usuario` FROM `persona` WHERE 1
+UPDATE `persona` SET `Status` = 'Inactivo' WHERE `persona`.`id_Persona` = 1;
+DELETE FROM persona WHERE id_Persona=1;
