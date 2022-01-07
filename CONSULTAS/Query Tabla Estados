@@ -1,0 +1,5 @@
+SELECT * FROM `estados`
+INSERT INTO `estados` (`id_Estado`, `Nombre_E`, `Iso_3166-2`, `Status`) VALUES (NULL, 'Lara ', 'VE-K', 'Activo');
+SELECT `id_Estado`, `Nombre_E`, `Iso_3166-2`, `Status` FROM `estados` WHERE 1;
+UPDATE `estados` SET `Status` = 'Inactivo' WHERE `estados`.`id_Estado` = 1;
+DELETE FROM estados WHERE id_Estado=1;
