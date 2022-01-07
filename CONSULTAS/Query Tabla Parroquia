@@ -1,0 +1,5 @@
+SELECT * FROM `parroquia` 
+INSERT INTO `parroquia` (`id_Parroquia`, `Nombre_P`, `Status`, `id_Municipio_Municipos`) VALUES (NULL, 'Tamaca', 'Activo', '2');
+SELECT `id_Parroquia`, `Nombre_P`, `Status`, `id_Municipio_Municipos` FROM `parroquia` WHERE 1;
+UPDATE `parroquia` SET `Status` = 'Inactivo' WHERE `parroquia`.`id_Parroquia` = 1;
+DELETE FROM parroquia WHERE id_Parroquia=1;
