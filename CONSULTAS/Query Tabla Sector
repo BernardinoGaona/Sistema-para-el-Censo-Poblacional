@@ -1,0 +1,5 @@
+SELECT * FROM `sector`
+INSERT INTO `sector` (`id_Sector`, `Nombre_S`, `Direccion_S`, `Status`, `id_Ciudad_Ciudad`) VALUES (NULL, 'Romeral', 'Tamaca, via cordero ', 'Activo', '2');
+SELECT `id_Sector`, `Nombre_S`, `Direccion_S`, `Status`, `id_Ciudad_Ciudad` FROM `sector` WHERE 1;
+UPDATE `sector` SET `Status` = 'Inactivo' WHERE `sector`.`id_Sector` = 1;
+DELETE FROM sector WHERE id_Sector=1;
