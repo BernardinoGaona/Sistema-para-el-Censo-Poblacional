@@ -1,0 +1,5 @@
+SELECT * FROM `comunidad`
+INSERT INTO `comunidad` (`id_Comunidad`, `Nombre_C`, `Direccion_C`, `Status`, `id_Sector_Sector`) VALUES (NULL, 'Romeral 1', 'via cordero ', 'Activo', '2');
+SELECT `id_Comunidad`, `Nombre_C`, `Direccion_C`, `Status`, `id_Sector_Sector` FROM `comunidad` WHERE 1;
+UPDATE `comunidad` SET `Status` = 'Inactivo' WHERE `comunidad`.`id_Comunidad` = 1;
+DELETE FROM comunidad WHERE id_Comunidad=1;
