@@ -1,0 +1,5 @@
+SELECT * FROM `ciudades`
+INSERT INTO `ciudades` (`id_Ciudad`, `Nombre_C`, `Capital_C`, `Status`, `id_Estado_Estados`, `id_Parroquia_Parroquia`) VALUES (NULL, 'Barquisimeto', '0', 'Activo', '2', '2');
+SELECT `id_Ciudad`, `Nombre_C`, `Capital_C`, `Status`, `id_Estado_Estados`, `id_Parroquia_Parroquia` FROM `ciudades` WHERE 1;
+UPDATE `ciudades` SET `Status` = 'Inactivo' WHERE `ciudades`.`id_Ciudad` = 1;
+DELETE FROM ciudades WHERE id_Ciudad=1;
