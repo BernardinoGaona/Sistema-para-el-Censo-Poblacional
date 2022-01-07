@@ -1,0 +1,5 @@
+SELECT * FROM `vivienda`
+INSERT INTO `vivienda` (`id_Vivienda`, `Nro_identificacion`, `Direccion`, `Status`, `Date_ingreso`, `id_Admin_Usuario`) VALUES (NULL, '1', 'Tamaca', 'Activo', '2022-01-04 03:34:44.000000', '2');
+SELECT `id_Vivienda`, `Nro_identificacion`, `Direccion`, `Status`, `Date_ingreso`, `id_Admin_Usuario` FROM `vivienda` WHERE 1
+UPDATE `vivienda` SET `Status` = 'Inactivo' WHERE `vivienda`.`id_Vivienda` = 1; 
+DELETE FROM vivienda WHERE id_Vivienda=1;
