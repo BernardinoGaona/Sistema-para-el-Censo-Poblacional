@@ -1,0 +1,5 @@
+SELECT * FROM `usuarios`
+INSERT INTO `usuarios` (`id_Admin`, `Nombre_U`, `Apellido_U`, `User`, `Password`, `Status`) VALUES (NULL, 'Angelys', 'Teran', 'Ange', 'angelys', 'Inactivo');
+SELECT `id_Admin`, `Nombre_U`, `Apellido_U`, `User`, `Password`, `Status` FROM `usuarios` WHERE 1
+UPDATE `usuarios` SET `Status` = 'Activo' WHERE `usuarios`.`id_Admin` = 1;
+DELETE FROM usuarios WHERE id_Admin=1;
